@@ -1,0 +1,31 @@
+# Cost Tracker Configuration
+budget_monthly_usd: 5000
+
+providers:
+  aws:
+    enabled: true
+    region: us-east-1
+  gcp:
+    enabled: false
+    project_id: my-project
+  azure:
+    enabled: false
+    subscription_id: 00000000-0000-0000-0000-000000000000
+
+alerts:
+  - threshold: 4000
+    period: monthly
+    services: []
+    notification_channels: [slack, email]
+
+notifications:
+  slack:
+    webhook_url: ${SLACK_WEBHOOK}
+  email:
+    enabled: false
+    smtp_host: smtp.gmail.com
+    smtp_port: 587
+    username: ${EMAIL_USER}
+    password: ${EMAIL_PASS}
+    from: alerts@company.com
+    to: [admin@company.com]

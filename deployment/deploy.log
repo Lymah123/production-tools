@@ -1,0 +1,83 @@
+[0;32m[2025-11-01 22:34:13][0m ═══════════════════════════════════════════════════════════
+[0;32m[2025-11-01 22:34:13][0m Starting Deployment
+[0;32m[2025-11-01 22:34:13][0m ═══════════════════════════════════════════════════════════
+[0;32m[2025-11-01 22:34:13][0m Detected platform: linux
+[0;32m[2025-11-01 22:34:13][0m Loading platform config: /c/Users/830 G8/production-tools/deployment/config/linux.conf
+[0;32m[2025-11-01 22:34:13][0m Validating environment: staging
+[0;31m[ERROR][0m APP_NAME not set in environment
+[0;32m[2025-11-01 22:34:14][0m ═══════════════════════════════════════════════════════════
+[0;32m[2025-11-01 22:34:14][0m Starting Deployment
+[0;32m[2025-11-01 22:34:15][0m ═══════════════════════════════════════════════════════════
+[0;32m[2025-11-01 22:34:15][0m Detected platform: windows
+[0;32m[2025-11-01 22:34:15][0m Loading platform config: /c/Users/830 G8/production-tools/deployment/config/windows.conf
+[0;32m[2025-11-01 22:34:15][0m Validating environment: production
+[0;31m[ERROR][0m APP_NAME not set in environment
+[0;32m[2025-11-01 22:34:16][0m ═══════════════════════════════════════════════════════════
+[0;32m[2025-11-01 22:34:16][0m Starting Deployment
+[0;32m[2025-11-01 22:34:16][0m ═══════════════════════════════════════════════════════════
+[0;32m[2025-11-01 22:34:16][0m Detected platform: windows
+[0;32m[2025-11-01 22:34:16][0m Loading platform config: /c/Users/830 G8/production-tools/deployment/config/windows.conf
+[0;32m[2025-11-01 22:34:16][0m Validating environment: production
+[0;31m[ERROR][0m APP_NAME not set in environment
+[0;32m[2025-11-01 22:36:19][0m ═══════════════════════════════════════════════════════════
+[0;32m[2025-11-01 22:36:19][0m Starting Deployment
+[0;32m[2025-11-01 22:36:19][0m ═══════════════════════════════════════════════════════════
+[0;32m[2025-11-01 22:36:19][0m Detected platform: linux
+[0;32m[2025-11-01 22:36:19][0m Loading platform config: /c/Users/830 G8/production-tools/deployment/config/linux.conf
+[0;32m[2025-11-01 22:36:19][0m Validating environment: staging
+[0;31m[ERROR][0m Required Python packages not installed
+[0;34m[INFO][0m Run: pip install -r monitoring/requirements.txt
+[0;32m[2025-11-01 22:36:21][0m ═══════════════════════════════════════════════════════════
+[0;32m[2025-11-01 22:36:21][0m Starting Deployment
+[0;32m[2025-11-01 22:36:21][0m ═══════════════════════════════════════════════════════════
+[0;32m[2025-11-01 22:36:21][0m Detected platform: windows
+[0;32m[2025-11-01 22:36:21][0m Loading platform config: /c/Users/830 G8/production-tools/deployment/config/windows.conf
+[0;32m[2025-11-01 22:36:21][0m Validating environment: production
+[0;31m[ERROR][0m Required Python packages not installed
+[0;34m[INFO][0m Run: pip install -r monitoring/requirements.txt
+[0;32m[2025-11-01 22:36:22][0m ═══════════════════════════════════════════════════════════
+[0;32m[2025-11-01 22:36:22][0m Starting Deployment
+[0;32m[2025-11-01 22:36:23][0m ═══════════════════════════════════════════════════════════
+[0;32m[2025-11-01 22:36:23][0m Detected platform: windows
+[0;32m[2025-11-01 22:36:23][0m Loading platform config: /c/Users/830 G8/production-tools/deployment/config/windows.conf
+[0;32m[2025-11-01 22:36:23][0m Validating environment: production
+[0;31m[ERROR][0m Required Python packages not installed
+[0;34m[INFO][0m Run: pip install -r monitoring/requirements.txt
+[0;32m[2025-11-01 22:36:25][0m ═══════════════════════════════════════════════════════════
+[0;32m[2025-11-01 22:36:25][0m Starting Deployment
+[0;32m[2025-11-01 22:36:25][0m ═══════════════════════════════════════════════════════════
+[0;32m[2025-11-01 22:36:25][0m Detected platform: windows
+[0;32m[2025-11-01 22:36:25][0m Rolling back to version: v1.0.0
+[0;31m[ERROR][0m Backup not found for version: v1.0.0
+[0;34m[INFO][0m Available backups:
+[0;34m[INFO][0m No backups found
+[0;32m[2025-11-01 23:26:14][0m ═══════════════════════════════════════════════════════════
+[0;32m[2025-11-01 23:26:14][0m Starting Deployment
+[0;32m[2025-11-01 23:26:14][0m ═══════════════════════════════════════════════════════════
+[0;32m[2025-11-01 23:26:14][0m Detected platform: windows
+[0;32m[2025-11-01 23:26:14][0m Loading platform config: /c/Users/830 G8/production-tools/deployment/config/windows.conf
+[0;32m[2025-11-01 23:26:14][0m Validating environment: staging
+[0;32m[2025-11-01 23:26:15][0m Environment validation passed
+[0;32m[2025-11-01 23:26:15][0m Deploying service: test-app
+[0;34m[INFO][0m [DRY RUN] Would deploy to: staging
+[0;34m[INFO][0m [DRY RUN] Platform: windows
+[0;34m[INFO][0m [DRY RUN] Service: test-app
+[0;32m[2025-11-01 23:26:15][0m ═══════════════════════════════════════════════════════════
+[0;32m[2025-11-01 23:26:15][0m Deployment Complete
+[0;32m[2025-11-01 23:26:15][0m ═══════════════════════════════════════════════════════════
+[0;32m[2025-11-01 23:26:16][0m ═══════════════════════════════════════════════════════════
+[0;32m[2025-11-01 23:26:16][0m Starting Deployment
+[0;32m[2025-11-01 23:26:16][0m ═══════════════════════════════════════════════════════════
+[0;32m[2025-11-01 23:26:16][0m Detected platform: windows
+[0;32m[2025-11-01 23:26:17][0m Loading platform config: /c/Users/830 G8/production-tools/deployment/config/windows.conf
+[0;32m[2025-11-01 23:26:17][0m Validating environment: production
+[0;32m[2025-11-01 23:26:17][0m Environment validation passed
+[0;32m[2025-11-01 23:26:17][0m Creating backup: /c/Users/830 G8/production-tools/deployment/backups/all_20251101_232617.tar.gz
+[0;34m[INFO][0m [DRY RUN] Would create backup at: /c/Users/830 G8/production-tools/deployment/backups/all_20251101_232617.tar.gz
+[0;32m[2025-11-01 23:26:17][0m Deploying service: all services
+[0;34m[INFO][0m [DRY RUN] Would deploy to: production
+[0;34m[INFO][0m [DRY RUN] Platform: windows
+[0;34m[INFO][0m [DRY RUN] Service: all
+[0;32m[2025-11-01 23:26:18][0m ═══════════════════════════════════════════════════════════
+[0;32m[2025-11-01 23:26:18][0m Deployment Complete
+[0;32m[2025-11-01 23:26:18][0m ═══════════════════════════════════════════════════════════
