@@ -1,0 +1,50 @@
+# ──────────────────────────────────────────────────────────────
+# CORE DEPENDENCIES
+# ──────────────────────────────────────────────────────────────
+PyYAML>=6.0.1,<7.0.0          # YAML config parsing
+requests>=2.32.0,<3.0.0       # HTTP API calls (OpenAI, Slack)
+
+# ──────────────────────────────────────────────────────────────
+# OPENAI & SLACK INTEGRATION
+# ──────────────────────────────────────────────────────────────
+openai>=1.51.0,<2.0.0         # OpenAI API usage fetching
+slack-sdk>=3.31.0,<4.0.0      # Slack webhook alerts
+
+# ──────────────────────────────────────────────────────────────
+# DATA & TIME
+# ──────────────────────────────────────────────────────────────
+python-dateutil>=2.9.0        # Robust date parsing
+pytz>=2024.1                  # Timezone support
+
+# ──────────────────────────────────────────────────────────────
+# CLI & OUTPUT
+# ──────────────────────────────────────────────────────────────
+click>=8.1.7,<9.0.0           # CLI interface
+rich>=13.8.0,<14.0.0          # Beautiful terminal output
+
+# ──────────────────────────────────────────────────────────────
+# CLOUD PROVIDERS (for cost monitoring)
+# ──────────────────────────────────────────────────────────────
+boto3>=1.35.0,<2.0.0                      # AWS Cost Explorer
+azure-identity>=1.12.0,<2.0.0             # Azure authentication
+azure-mgmt-costmanagement>=4.0.1,<5.0.0   # Azure cost management
+# google-cloud-billing>=1.13.0            # GCP Billing (uncomment if needed)
+
+# ──────────────────────────────────────────────────────────────
+# SECRETS MANAGEMENT
+# ──────────────────────────────────────────────────────────────
+hvac>=1.1.0,<2.0.0            # HashiCorp Vault client
+cryptography>=43.0.1          # For secure env handling
+
+# ──────────────────────────────────────────────────────────────
+# TESTING
+# ──────────────────────────────────────────────────────────────
+pytest>=8.3.0,<9.0.0
+pytest-cov>=5.0.0
+pytest-mock>=3.14.0
+
+# ──────────────────────────────────────────────────────────────
+# FUTURE EXTENSIONS 
+# ──────────────────────────────────────────────────────────────
+# pandas>=2.2.0                 # Advanced reporting
+ prometheus-client>=0.20.0     # Metrics export
